@@ -15,21 +15,25 @@
   <body>
     <h1 id="title">Bilingual poems</h1>
     <main>
-      <form>
+      <form id="input-form">
         <input
+          id="input-language-1"
           type="text"
           placeholder="enter first language"
           autofocus
           required
         />
         <input
+          id="input-language-2"
           type="text"
           placeholder="enter second language"
           autofocus
           required
         />
-        <input type="submit" />
+        <br />
+        <input type="submit" value="generate" id="generate" />
       </form>
+
       <div id="poem">
         Pack your Mut und leave the door,
         <br />
